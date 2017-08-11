@@ -25,7 +25,8 @@ heroes = [
 	"Lucio",
 	"Mercy",
 	"Symmetra",
-	"Zenyatta"
+	"Zenyatta",
+	"Orisa"
 ]
 
 class Overwatcher:
@@ -47,6 +48,8 @@ class Overwatcher:
 		channel = ctx.message.server.get_channel("134727416038817793")
 		army = []
 		string = ""
+		
+		self.bot.say(unique);
 		
 		for member in channel.voice_members:
 			if unique:
