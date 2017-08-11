@@ -26,7 +26,8 @@ heroes = [
 	"Mercy",
 	"Symmetra",
 	"Zenyatta",
-	"Orisa"
+	"Orisa",
+	"Doomfist"
 ]
 
 class Overwatcher:
